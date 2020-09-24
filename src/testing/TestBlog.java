@@ -1,6 +1,6 @@
 package testing;
 
-/* Uncomment the below code to test your application
+/* Uncomment the below code to test your application*/
 
 import static org.junit.Assert.*;
 
@@ -25,11 +25,11 @@ public class TestBlog {
 		 try {
 			 blog.setBlogDescription(null);
 			 blog.setBlogTitle(null);
-			 blog.setDate(null);
+			 blog.setBlogTitle(null);
 		 }
 		 catch(Exception e) {
 			 e.printStackTrace();
 		 }
 	 }
 }
-*/
+

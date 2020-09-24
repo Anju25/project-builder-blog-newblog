@@ -1,6 +1,6 @@
 package model;
 
-import java.time.LocalDate;
+//import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class User {
@@ -14,7 +14,10 @@ public class User {
 		this.password = password;
 		this.date = date;
 	}
-
+public User()
+{
+	
+}
 	public String getEmail() {
 		return email;
 	}
